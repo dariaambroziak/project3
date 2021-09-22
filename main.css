@@ -77,17 +77,58 @@ body {
   text-decoration: none;
 }
 
+.smartwatche-hama .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  transition: all .3s;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-left: 75px;
+}
+
+@media (max-width: 767px) {
+  .smartwatche-hama .button {
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: none;
+  }
+}
+
+.smartwatche-hama .button--primary {
+  background: #EF0C39;
+  color: #fff;
+  font-weight: 300;
+  padding: .6vw 2.5vw;
+  font-size: 1.7vw;
+  border-radius: 30px;
+}
+
+@media (max-width: 767px) {
+  .smartwatche-hama .button--primary {
+    font-size: 14px;
+    padding: .35rem 1.5rem;
+    border-radius: 30px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .smartwatche-hama .button--primary {
+    font-size: 25px;
+    padding: 13px 30px;
+  }
+}
+
+.smartwatche-hama .button--primary:hover {
+  opacity: .7;
+  box-shadow: 0 5px 25px 0 rgba(239, 12, 57, 0.35);
+}
+
 .smartwatche-hama input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-}
-
-.smartwatche-hama input[type="submit"] {
-  font-size: 20px;
-  background: #EF0C39;
-  border: none;
-  padding: 10px 20px;
 }
 
 .smartwatche-hama .container {
