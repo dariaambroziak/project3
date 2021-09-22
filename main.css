@@ -469,6 +469,14 @@ body {
   color: #FFFFFF;
 }
 
+@media (max-width: 576px) {
+  .smartwatche-hama .loader-black .loader__images-item {
+    background-image: url(images/320-Smartwatche/img-2.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 .smartwatche-hama .loader-gray {
   background-color: #F2F2F2;
 }

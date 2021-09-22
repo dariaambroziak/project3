@@ -319,6 +319,13 @@ body {
 .loader-black {
   background-color: #000;
   color: $white;
+  .loader__images-item {
+    @media (max-width: 576px) {
+      background-image: url(images/320-Smartwatche/img-2.png);
+      background-size: cover;
+      background-position: center;
+    }
+  }
 }
 .loader-gray {
   background-color: #F2F2F2;
