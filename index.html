@@ -14,12 +14,12 @@
 </head>
 <body>
       
-  <main class="gsm-hama">
+  <main class="smartwatche-hama">
     <section>
       <div class="container">
         <div class="row">
           <div class="header col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img class="logo" src="images/1.svg" />
+            <img class="logo" src="images/logo.svg" alt="logo"/>
           </div>
         </div>
       </div>
@@ -28,13 +28,9 @@
       <div class="container">
         <div class="row">
           <div class="slider col-xs-12 col-sm-12 col-md-12 col-lg-12">  
-            <ul class="js__slider__images slider__images">
-              <li class="slider__images-item">
-                <img class="slider__images-image desktop" src="images/1350-Smartwatche/img-1.png" />
-                <img class="slider__images-image mobile" src="images/320-Smartwatche/img-1.png" />
-                <h2 class="slider__images-title">Zmierz efektywność swoich <br>treningów oraz zadbaj o zdrowie i <br>odpowiedni wypoczynek.</h2>
-              </li>
-            </ul>
+            <img class="slider__images-image desktop" src="images/1350-Smartwatche/img-1.png" alt="img1"/>
+            <img class="slider__images-image mobile" src="images/320-Smartwatche/img-1.png" alt="img-1"/>
+            <h2 class="slider__images-title">Zmierz efektywność swoich <br>treningów oraz zadbaj o zdrowie <br>i odpowiedni wypoczynek.</h2>
           </div>
         </div>
       </div>
@@ -163,15 +159,8 @@
             <h2>Masz pytania?<br> Skontaktuj się z nami</h2>
             <p>Uruchomiliśmy specjalną infolinię do produktów Hama mobile. Dzwoń na poniższy numer, jeśli potrzebujesz porady lub masz inny problem, w którym możemy pomóc.</p>
             <div class="contact__content-tel">
-              <div class="row">
-                <div class="col-xs-4">
-                  <img class="icon" src="images/1.svg" />
-                </div>
-                <div class="col-xs-8">
-                   <p>+48 799 399 847<br><small class="gray">(pn-pt, 9:00-16:00)</small></p>
-                </div>
-              </div>
-              
+              <img class="icon" src="images/icon/contact.svg" alt="contact.svg"/>
+              <p><a href="tel:+48799399847">+48 799 399 847</a><br><small class="gray">(pn-pt, 9:00-16:00)</small></p>
             </div>
           </div>
         </div>
@@ -182,53 +171,6 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>
-
-
-  var loadEditorJS;
-  
-  loadEditorJS = function() {  
-    
-
-    var sliderImage = $('.slider__images-image');
-
-    // set up vars
-    var sliderPagers       = 'ol.js__slider__pagers li',
-        sliderPagersActive = '.js__slider__pagers li.active',
-        sliderImages       = '.js__slider__images',
-        sliderImagesItem   = '.slider__images-item',
-        sliderControlNext  = '.slider__control--next',
-        sliderControlPrev  = '.slider__control--prev',
-        sliderSpeed        = 5000,
-        lastElem           = $(sliderPagers).length-1,
-        sliderTarget;
-
-    // add css heigt to slider images list
-    function checkImageHeight() {
-        var sliderHeight = $('.slider__images-image:visible').height(); 
-        $(sliderImages).css('height', sliderHeight+'px');
-        $(sliderImages).css('max-height' , '670px');
-    };
-
-    sliderImage.on('load', function() {
-        checkImageHeight();
-        $(sliderImages).addClass('loaded')
-    });
-    $(window).resize(function(){
-        checkImageHeight();
-    });
-
-    // set up first slide
-    $(sliderPagers).first().addClass('active');
-    $(sliderImagesItem).hide().first().show();
-
-  };
-
-  $(document).ready(loadEditorJS());
- 
-</script>
-
-
 
 </body>
 
