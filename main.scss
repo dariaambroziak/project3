@@ -222,7 +222,7 @@ body {
     }
     &-title {
       position: absolute;
-      top: 20%;
+      top: 40%;
       color: #FFFFFF;
       font-weight: 300;
       display: flex;
@@ -237,7 +237,7 @@ body {
   
         font-size: 48px;
         line-height: 63px;
-        top: 200px;
+        top: 250px;
       }
      
     }
@@ -313,6 +313,9 @@ body {
     p{
       padding: 0 15px;
     }
+    .img-1 {
+      background-image: url('images/1350-Smartwatche/1.png');
+    }
   }
 }
 
@@ -320,7 +323,7 @@ body {
   background-color: #000;
   color: $white;
   .loader__images-item {
-    @media (max-width: 576px) {
+    @media (max-width: 767px) {
       background-image: url(images/320-Smartwatche/img-2.png);
       background-size: cover;
       background-position: center;

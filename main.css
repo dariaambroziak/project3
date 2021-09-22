@@ -353,7 +353,7 @@ body {
 
 .smartwatche-hama .slider__images-title {
   position: absolute;
-  top: 20%;
+  top: 40%;
   color: #FFFFFF;
   font-weight: 300;
   display: flex;
@@ -373,7 +373,7 @@ body {
   .smartwatche-hama .slider__images-title {
     font-size: 48px;
     line-height: 63px;
-    top: 200px;
+    top: 250px;
   }
 }
 
@@ -464,12 +464,16 @@ body {
   padding: 0 15px;
 }
 
+.smartwatche-hama .nav__images .img-1 {
+  background-image: url("images/1350-Smartwatche/1.png");
+}
+
 .smartwatche-hama .loader-black {
   background-color: #000;
   color: #FFFFFF;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .smartwatche-hama .loader-black .loader__images-item {
     background-image: url(images/320-Smartwatche/img-2.png);
     background-size: cover;
