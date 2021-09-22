@@ -97,11 +97,17 @@ body {
   //       }
   //   }
   // }
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
   input[type="submit"] {
     font-size: 20px;
     background: #EF0C39;
     border: none;
     padding: 10px 20px;
+    
   }
 
 
