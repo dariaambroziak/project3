@@ -353,9 +353,9 @@ body {
 
 .smartwatche-hama .slider__images-title {
   position: absolute;
-  top: 40%;
+  top: 25%;
   color: #FFFFFF;
-  font-weight: 300;
+  font-weight: 100;
   display: flex;
   align-items: center;
   font-size: 40px;
@@ -438,12 +438,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-@media (max-width: 767px) {
-  .smartwatche-hama .nav__images-item {
-    padding-bottom: 1rem;
-  }
+  padding-bottom: 1rem;
 }
 
 .smartwatche-hama .nav__images-title {
@@ -635,26 +630,30 @@ body {
   }
 }
 
-.smartwatche-hama .contact {
-  background-image: url(images/1350-Smartwatche/img-10.png);
-  background-size: contain;
-  background-position: bottom;
-}
-
-@media (max-width: 576px) {
-  .smartwatche-hama .contact {
-    background-image: none;
-  }
-}
-
 .smartwatche-hama .contact__content {
-  padding: 1rem 10% 6rem 33%;
+  background-image: url(images/1350-Smartwatche/img-10.png);
+  background-size: cover;
+  background-position: left bottom;
+  padding: 1rem 10% 10rem 33%;
 }
 
 @media (max-width: 576px) {
   .smartwatche-hama .contact__content {
     height: 320px;
     padding: 0 0 3rem;
+    background-image: none;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .smartwatche-hama .contact__content {
+    padding: 1rem 10% 6rem 33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .smartwatche-hama .contact__content {
+    padding: 1rem 10% 6rem 33%;
   }
 }
 
@@ -670,7 +669,7 @@ body {
 
 .smartwatche-hama .contact__content-tel .icon {
   height: 72px;
-  padding: 4px 1rem 4px 4rem;
+  padding: 5px .4rem 15px 4rem;
 }
 
 @media (max-width: 767px) {
