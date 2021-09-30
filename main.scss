@@ -6,7 +6,7 @@ $primary: #EF0C39;
 $primaryLight: #FC6C6D;
 
 
-.lp-h-s {
+.lp-hama-s {
   @media (max-width: 767px) {
     margin: 0 -8px;
   }
@@ -337,7 +337,7 @@ $primaryLight: #FC6C6D;
       padding: 0 15px;
     }
     .img-1 {
-      background-image: url('images/1350-Smartwatche/1.png');
+      background-image: url('images/lp-hama-s/1350-smartwatche/1.png');
     }
   }
 }
@@ -347,7 +347,7 @@ $primaryLight: #FC6C6D;
   color: $white;
   .loader__images-item {
     @media (max-width: 767px) {
-      background-image: url(images/320-Smartwatche/img-2.png);
+      background-image: url(images/lp-hama-s/320-smartwatche/img-2.png);
       background-size: cover;
       background-position: center;
     }
@@ -384,19 +384,19 @@ $primaryLight: #FC6C6D;
       }
     }
     &-img1 {
-      background-image: url(images/1350-Smartwatche/img-4.png);
+      background-image: url(images/lp-hama-s/1350-smartwatche/img-4.png);
       background-size: cover;
       background-position: center;
       @media (max-width: 767px) {
-        background-image: url(images/320-Smartwatche/img-4.png);
+        background-image: url(images/lp-hama-s/320-smartwatche/img-4.png);
       }
     }
     &-img2 {
-      background-image: url(images/1350-Smartwatche/img-6.png);
+      background-image: url(images/lp-hama-s/1350-smartwatche/img-6.png);
       background-size: cover;
       background-position: center;
       @media (max-width: 767px) {
-        background-image: url(images/320-Smartwatche/img-6.png);
+        background-image: url(images/lp-hama-s/320-smartwatche/img-6.png);
       }
     }
 
@@ -452,11 +452,11 @@ $primaryLight: #FC6C6D;
       }
     }
     &-img3 {
-      background-image: url(images/1350-Smartwatche/img-7.png);
+      background-image: url(images/lp-hama-s/1350-smartwatche/img-7.png);
       background-size: cover;
       background-position: center;
       @media (max-width: 767px) {
-        background-image: url(images/320-Smartwatche/img-7.png);
+        background-image: url(images/lp-hama-s/320-smartwatche/img-7.png);
       }
     }
   }
@@ -470,7 +470,7 @@ $primaryLight: #FC6C6D;
 
 .contact {
   &__content {
-    background-image: url(images/1350-Smartwatche/img-10.png);
+    background-image: url(images/lp-hama-s/1350-smartwatche/img-10.png);
     background-size: cover;
     background-position: left bottom;
     padding: 1rem 10% 10rem 33%;
@@ -525,7 +525,7 @@ $primaryLight: #FC6C6D;
   }
   &__mobile {
     @media (max-width: 576px) {
-      background-image: url(images/320-Smartwatche/img-10.png);
+      background-image: url(images/lp-hama-s/320-smartwatche/img-10.png);
       background-size: cover;
       height: 100vw;
       max-height: 500px;
