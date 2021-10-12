@@ -39,8 +39,8 @@ $primaryLight: #FC6C6D;
     font-size: 4.2vw;
     line-height: 4.6vw; 
       @media (max-width: 767px) {
-        font-size: 26px;
-        line-height: 34px;
+        font-size: 25px;
+        line-height: 30px;
       }
       @media (min-width: 1350px) {
         font-size: 60px;
@@ -60,6 +60,11 @@ $primaryLight: #FC6C6D;
   }
   .SMdesktop {
     @media (max-width: 576px) {
+        display: none!important;
+    }
+  }
+  .SMmobile {
+    @media (min-width: 577px) {
         display: none!important;
     }
   }
@@ -235,6 +240,7 @@ $primaryLight: #FC6C6D;
       align-items: center;
       font-size: 4.2vw;
       @media (max-width: 576px) {
+        top:25%;
         font-size: 18px;
         line-height: 24px;
       }
@@ -353,13 +359,15 @@ $primaryLight: #FC6C6D;
       height: 320px;
     }
     &-photo {
-      @media (max-width: 767px) {
-        height: 600px;
+      @media (max-width: 576px) {
+        height: 100%;
+        min-height: 500px;
       }
     }
     img {
-      @media (max-width: 767px) {
+      @media (max-width: 576px) {
         height: 244px;
+        margin-bottom: 60px;
       }
     }
     &-img1 {
@@ -401,6 +409,7 @@ $primaryLight: #FC6C6D;
       max-height: 670px;
       @media (max-width: 767px) {
         height: 320px;
+        width: auto;
       }
     }
     &-product {
@@ -438,11 +447,28 @@ $primaryLight: #FC6C6D;
         background-image: url(images/lp-hama-s/320-smartwatche/img-7.png);
       }
     }
+    
   }
   h2 {
     @media (max-width: 767px) {
       margin-top: 40px;
       margin-bottom: 25px;
+    }
+  }
+  .img3 {
+    background-image: url(images/lp-hama-s/1350-smartwatche/img-3.png);
+    background-size: cover;
+    background-position: center;
+    @media (max-width: 767px) {
+      background-image: url(images/lp-hama-s/320-smartwatche/img-3.png);
+    }
+  }
+  .img5 {
+    background-image: url(images/lp-hama-s/1350-smartwatche/img-5.png);
+    background-size: cover;
+    background-position: center;
+    @media (max-width: 767px) {
+      background-image: url(images/lp-hama-s/320-smartwatche/img-5.png);
     }
   }
 }

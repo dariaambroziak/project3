@@ -49,8 +49,8 @@
 
 @media (max-width: 767px) {
   .lp-hama-s h2 {
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 25px;
+    line-height: 30px;
   }
 }
 
@@ -75,6 +75,12 @@
 
 @media (max-width: 576px) {
   .lp-hama-s .SMdesktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 577px) {
+  .lp-hama-s .SMmobile {
     display: none !important;
   }
 }
@@ -370,6 +376,7 @@
 
 @media (max-width: 576px) {
   .lp-hama-s .slider__images-title {
+    top: 25%;
     font-size: 18px;
     line-height: 24px;
   }
@@ -508,15 +515,17 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .lp-hama-s .loader__content-photo {
-    height: 600px;
+    height: 100%;
+    min-height: 500px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .lp-hama-s .loader__content img {
     height: 244px;
+    margin-bottom: 60px;
   }
 }
 
@@ -576,6 +585,7 @@
 @media (max-width: 767px) {
   .lp-hama-s .loader__images-item {
     height: 320px;
+    width: auto;
   }
 }
 
@@ -633,6 +643,30 @@
   .lp-hama-s .loader h2 {
     margin-top: 40px;
     margin-bottom: 25px;
+  }
+}
+
+.lp-hama-s .loader .img3 {
+  background-image: url(images/lp-hama-s/1350-smartwatche/img-3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .lp-hama-s .loader .img3 {
+    background-image: url(images/lp-hama-s/320-smartwatche/img-3.png);
+  }
+}
+
+.lp-hama-s .loader .img5 {
+  background-image: url(images/lp-hama-s/1350-smartwatche/img-5.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .lp-hama-s .loader .img5 {
+    background-image: url(images/lp-hama-s/320-smartwatche/img-5.png);
   }
 }
 
